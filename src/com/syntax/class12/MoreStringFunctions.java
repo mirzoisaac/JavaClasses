@@ -6,7 +6,7 @@ public class MoreStringFunctions {
 String me="I am a good tester";
         
         System.out.println("----- replace() FUNCTION -----");
-        //replace old value with nee value
+        //replace old value with new value
         String newString=me.replace("a", "c");
         System.out.println(newString);
         //if it finds matching char sequence --> then replace

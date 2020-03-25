@@ -8,7 +8,7 @@ public class Q5 {
 		
 		String given="I love Java";
 		String reversed="";
-		for(int i=given.length(); i>=0; i--) {
+		for(int i=given.length()-1; i>=0; i--) {
 			reversed=reversed+given.charAt(i);
 			
 			

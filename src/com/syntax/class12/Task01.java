@@ -1,5 +1,7 @@
 package com.syntax.class12;
 
+
+
 public class Task01 {
 
 	public static void main(String[] args) {
@@ -13,6 +15,7 @@ public class Task01 {
             System.out.print(letter);
         }
         System.out.println();
+        
 
 	}
 }

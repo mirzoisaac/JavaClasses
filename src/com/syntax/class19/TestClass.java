@@ -27,6 +27,12 @@ public class TestClass {
 		obj.print_geek1();
 		obj.print_for();
 		
+		//County myUsa=new County();
+		County.method();
+		County.method1();
+		County.method2();
+		
+		
 
 	}
 

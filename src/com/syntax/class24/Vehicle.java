@@ -3,8 +3,12 @@ package com.syntax.class24;
 public abstract class Vehicle {
 	static int totalVehicles;
 	String color;
+	Vehicle(){
+		
+	}
 	
 	Vehicle(String color){
+		this();
 		this.color=color;
 		totalVehicles++;
 	}

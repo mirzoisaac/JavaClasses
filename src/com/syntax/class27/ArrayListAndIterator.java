@@ -13,6 +13,7 @@ public class ArrayListAndIterator {
 		choco.add("godiva");
 		choco.add("kit kat");
 		choco.add("snikers");
+	
 
 		// create arraylist of sweets
 		ArrayList<String> sweets = new ArrayList<>();

@@ -14,6 +14,8 @@ public class ArrayListIntro {
 			numbers.add(20);
 			numbers.add(30);
 			
+			
+			
 			System.out.println(numbers.get(2));
 			System.out.println(numbers.contains(30));
 			

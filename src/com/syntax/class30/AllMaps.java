@@ -9,6 +9,9 @@ import java.util.TreeMap;
 public class AllMaps {
 
 	public static void main(String[] args) {
+		
+		//keys always keep unique KEY VALUES(Integer, String,...)
+		
 		//lets create a grocery map (item, quantity)in which we do not care about the order
 				Map<String, Integer> grocery=new HashMap<>();
 				grocery.put("milk", 1);
@@ -16,7 +19,9 @@ public class AllMaps {
 				grocery.put("banana", 12);
 				grocery.put("cheese", 2);
 				grocery.put("grapes", 3);
+			    
 				System.out.println(grocery);
+				
 
 				//create a map of items to buy (item, quantity) in which we want save the order
 				Map<String, Integer> household=new LinkedHashMap<>();
@@ -53,7 +58,7 @@ public class AllMaps {
 				while(iterator.hasNext()) {
 					System.out.println("value = "+iterator.next());
 				}
-				//break till 11:50
+				
 
 	}
 

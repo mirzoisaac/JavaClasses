@@ -23,6 +23,8 @@ public class HW2 {
 	    String city3="Washington DC";
 	    cities.put(city3, city3.length() );
 	    
+	    cities.remove("Dushanbe");
+	    
 	    System.out.println(cities);
 	    System.out.println("-------------");
 //	    for(Integer i:cities.values()) {
@@ -36,9 +38,6 @@ public class HW2 {
 	    	if(ob.getValue()>7) {
 	    		it.remove();
 	    	}
-	    	
-	    	
-	    	
 	    	
 	    }
 	    	
